@@ -1,0 +1,417 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/*header start*/
+header{
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px auto;
+}
+/*header left side*/
+.header-text p{
+    color:hsl(228, 12%, 44%);
+    font-weight: 600;
+    font-size: 14px;
+}
+/*header right side*/
+.lightToDark{
+    display:flex;
+    align-items: center;
+}
+
+.lightToDark button{
+    width:55px;
+    height: 30px;
+    border-radius: 50px;
+    outline:none;
+    background-image: linear-gradient(to right , hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    cursor:pointer;
+}
+.lightToDark p{
+    margin-right: 10px;
+    font-size: 14px;
+    color: hsl(228, 12%, 44%);
+    font-weight: 600;
+}
+.circle{
+    height:20px;
+    width:20px;
+    border-radius: 50px;
+    background-color:white;
+    cursor:pointer;
+    margin-left: 26px;
+}
+/*header end*/
+
+/*body start*/
+    /*first grid start*/
+.first-grid-container{
+    display:grid;
+    grid-template-columns: repeat(21 , 1fr);
+    grid-template-rows: repeat(4 , 50px);
+}
+/*facebook top*/
+.Facebook{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border-radius: 5px;
+    background-color:hsl(227, 47%, 96%);
+}
+.facebook-top-color{
+    width: 100%;
+    height:5px;
+    background-color:hsl(208, 92%, 53%);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+/*twitter top*/
+.Twitter{
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start:1;
+    grid-row-end:5;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+.twitter-top-color{
+    width: 100%;
+    height:5px;
+    background-color:hsl(203, 89%, 53%);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+/*instagram top*/
+.Instagram{
+    grid-column-start:12;
+    grid-column-end: 16;
+    grid-row-start:1;
+    grid-row-end: 5;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+.instagram-top-color{
+    width: 100%;
+    height:5px;
+    background: linear-gradient(to right ,hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+/*youtube top*/
+.YouTube{
+    grid-column-start:17;
+    grid-column-end: 21;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+.youtube-top-color{
+    width: 100%;
+    height:5px;
+    background-color:hsl(348, 97%, 39%);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+/*Inside all first gird */
+.Box{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    display:flex;
+}
+.logo img{
+    margin-right: 5px;
+}
+.number{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.number h1{
+    font-size: 50px;
+}
+.number p{
+    color: hsl(228, 12%, 44%);
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.arrow{
+    display:flex;
+    align-items:center;
+}
+.arrow img{
+    margin-right: 5px;
+}
+.arrow-green-Color{
+    color:hsl(163, 72%, 41%);
+    font-weight: bold;
+    font-size: 14px;
+}
+.arrow-red-Color{
+    color:hsl(356, 69%, 56%);
+    font-weight: bold;
+    font-size: 14px;
+}
+    /*first grid end*/
+
+.today{
+    width: 90%;
+    margin: 20px auto;
+    color:hsl(228, 12%, 44%);
+    font-weight: 600;
+}
+
+    /*second-grid-start*/
+.second-grid-container{
+    display:grid;
+    grid-template-columns: repeat(21 , 1fr);
+    grid-template-rows: repeat(4 , 55px);
+    grid-row-gap: 15px;
+   
+}
+
+.facebook-Views{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start:1;
+    grid-row-end:3;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+
+.facebook-Like{
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start:1;
+    grid-row-end:3;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+
+.instagram-Like{
+    grid-column-start:12;
+    grid-column-end: 16;
+    grid-row-start:1;
+    grid-row-end:3;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+.instagram-Views{
+    grid-column-start:17;
+    grid-column-end: 21;
+    grid-row-start:1;
+    grid-row-end:3;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+
+.Twitter-Retwwets{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start:3;
+    grid-row-end:5;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+.Twitter-Like{
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start:3;
+    grid-row-end:5;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+
+.youtube-Like{
+    grid-column-start:12;
+    grid-column-end: 16;
+    grid-row-start:3;
+    grid-row-end:5;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+
+.YouTube-Views{
+    grid-column-start:17;
+    grid-column-end: 21;
+    grid-row-start:3;
+    grid-row-end:5;
+    background-color:hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+
+.second-box{
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number-and-text{
+    margin-top: 5px;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.Views-likes{
+    color: hsl(228, 12%, 44%);
+    font-weight: 600;
+}
+.number-for-Down-side{
+    font-weight: bold;
+}
+.logo-and-percent{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+.arrow-Icon-and-percent{
+    display:flex;
+    align-items: center;
+}
+.arrow-Icon-and-percent img{
+    margin-right: 2px;
+}
+.percent-green-color{
+    color:hsl(163, 72%, 41%);
+    font-weight: bold;
+    font-size: 14px;
+}
+.percent-red-color{
+    color:hsl(356, 69%, 56%);
+    font-weight: bold;
+    font-size: 14px;
+}
+    /*second-grid-end*/
+.hr{
+    display:none;
+}
+/*body end*/
+
+
+@media (max-width: 375px){
+    /*header*/
+header{
+    flex-direction:column;
+}
+.lightToDark{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+.hr{
+    display:inline-block;
+    margin-top: 10px;
+}
+    /*header*/
+
+.first-grid-container{
+    display:grid;
+    grid-template-columns: repeat(10 , 1fr);
+    grid-template-rows: repeat(12 , 50px);
+    grid-row-gap: 20px;
+}
+.Facebook{ 
+    grid-column-start:2;
+    grid-column-end:10;
+    grid-row-start: 1;
+    grid-row-end:4;
+  }
+.Twitter{
+    grid-column-start:2;
+    grid-column-end:10;
+    grid-row-start: 4;
+    grid-row-end:7;
+  }
+.Instagram{
+    grid-column-start:2;
+    grid-column-end:10;
+    grid-row-start: 7;
+    grid-row-end:10;
+  }
+.YouTube{
+    grid-column-start:2;
+    grid-column-end:10;
+    grid-row-start: 10;
+    grid-row-end:13;
+  }
+.today{
+    margin: 30px auto;
+}
+/*second grid start*/
+.second-grid-container{
+    display:grid;
+    grid-template-columns: repeat(10 , 1fr);
+    grid-template-rows: repeat(18 , 45px);
+  }
+.facebook-Views{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start:1;
+    grid-row-end:3;
+}
+.facebook-Like{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start:3;
+    grid-row-end:5;
+}
+.instagram-Like{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start:5;
+    grid-row-end:7;
+}
+.instagram-Views{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start:7;
+    grid-row-end:9;
+}
+.Twitter-Retwwets{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start:9;
+    grid-row-end:11;
+}
+.Twitter-Like{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start:11;
+    grid-row-end:13;
+}
+.youtube-Like{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start:13;
+    grid-row-end:15;
+}
+.YouTube-Views{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start:15;
+    grid-row-end:17;
+}
+}
