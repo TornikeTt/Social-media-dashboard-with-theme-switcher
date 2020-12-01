@@ -3,8 +3,8 @@ function Change(){
     this.circle = document.getElementById("circle")
     this.firstgridBoxes = document.querySelectorAll(".Box")
     this.secondgridBoxes = document.querySelectorAll("#box")
-    this.TextColor = document.querySelectorAll("#c")
-    this.number_TopText_Colors = document.querySelectorAll("#c2")
+    this.TextColor = document.querySelectorAll(".c")
+    this.number_TopText_Colors = document.querySelectorAll(".c2")
     this.button = document.querySelector("button")
 
     this.changeBackground = function(){
@@ -45,8 +45,8 @@ function Changes(){
     this.circle = document.getElementById("circle")
     this.firstgridBoxes = document.querySelectorAll(".Box")
     this.secondgridBoxes = document.querySelectorAll("#box")
-    this.TextColor = document.querySelectorAll("#c")
-    this.number_TopText_Colors = document.querySelectorAll("#c2")
+    this.TextColor = document.querySelectorAll(".c")
+    this.number_TopText_Colors = document.querySelectorAll(".c2")
     this.button = document.querySelector("button")
 
     this.changeBackground = function(){
