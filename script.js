@@ -14,13 +14,13 @@ function Change(){
     /*second grid boxes colors*/
     this.TextColor = document.querySelectorAll(".c")
     this.number_TopText_Colors = document.querySelectorAll(".c2")
-    this.button = document.querySelector("button")
+    this.button = document.querySelector(".button")
 
     this.changeBackground = function(){
         this.body.style.backgroundColor = "hsl(230, 17%, 14%)";
     }
     this.circlePositionChange = function(){
-        this.circle.style.marginLeft = "0px"
+        this.circle.style.marginLeft = "5px"
         this.circle.style.transition = "marginLeft , 0.5s"
         this.circle.style.backgroundColor = "hsl(228, 28%, 20%)";
     }
@@ -74,13 +74,13 @@ function Changes(){
     /*second grid boxes colors*/
     this.TextColor = document.querySelectorAll(".c")
     this.number_TopText_Colors = document.querySelectorAll(".c2")
-    this.button = document.querySelector("button")
+    this.button = document.querySelector(".button")
 
     this.changeBackground = function(){
         this.body.style.backgroundColor = "hsl(0, 0%, 100%)";
     }
     this.circlePositionChange = function(){
-        this.circle.style.marginLeft = "26px"
+        this.circle.style.marginLeft = "30px"
         this.circle.style.transition = "marginLeft , 0.5s"
         this.circle.style.backgroundColor = "white";
     }
